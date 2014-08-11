@@ -6,7 +6,7 @@
  * Copyright (c) 2013 extendFunction.js contributors
  * MIT Licensed
  */
-(function(){
+$(function(){
   var window = this; // this === window in the browser, this === global in node.
   var undefined;
 
@@ -185,4 +185,4 @@
     // in a browser or Rhino
     root.extendFunction = extendFunction;
   }
-}).call(this);
+});
